@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from datetime import datetime, timedelta
 from config import Config
 
-client = MongoClient(Config.MONGO_URI)
+client = MongoClient(Config.mongodb+srv://PfParadox:meisalsoknownas@Merge_Paradox_Bot.oiyitj4.mongodb.net/?retryWrites=true&w=majority&appName=@Merge_Paradox_Bot)
 db = client[Config.MONGO_DBNAME]
 
 users = db["users"]         # {_id: user_id, daily_count, daily_reset, limit, is_admin, premium, thumb, caption}
