@@ -1,0 +1,11 @@
+pyrogram==2.0.106
+TgCrypto
+pymongo[srv]
+dnspython
+hachoir
+requests
+aiohttp
+pillow
+python-dotenv
+motor
+humanize
